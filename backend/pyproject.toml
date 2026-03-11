@@ -1,0 +1,28 @@
+[project]
+name = "plantarea"
+version = "0.1.0"
+description = "Plantarea - Marketplace de viveros de Chile"
+requires-python = ">=3.11"
+
+[tool.poetry]
+name = "plantarea"
+version = "0.1.0"
+description = "Plantarea - Marketplace de viveros de Chile"
+authors = ["Plantarea Team"]
+packages = [{ include = "plantarea", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.0"
+uvicorn = { extras = ["standard"], version = "^0.34.0" }
+sqlalchemy = "^2.0.0"
+pyyaml = "^6.0"
+python-multipart = "^0.0.20"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+httpx = "^0.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

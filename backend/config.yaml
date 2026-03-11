@@ -1,0 +1,13 @@
+database:
+  url: "sqlite:///plantarea.db"
+  echo: false
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+
+cors:
+  origins:
+    - "http://localhost:5173"
+    - "http://localhost:3000"
