@@ -43,7 +43,7 @@
 - [x] UX Review realizado y issues críticos corregidos
 - [ ] Tests (pendiente para Sprint 2)
 - [ ] Code review formal (pendiente para Sprint 2)
-- [ ] README con instrucciones de setup (pendiente)
+- [x] README con instrucciones de setup
 
 ## Daily Log
 
